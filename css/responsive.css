@@ -16,10 +16,12 @@
   #navbar ul {
     margin-top: 1rem;
     margin-left: 0;
+    flex-wrap: wrap;
   }
   #navbar ul li a {
-    padding: 15px;
+    padding: 10px;
     font-size: 15px;
+    line-height: 25px;
   }
   .social-media {
     display: none;
@@ -49,11 +51,11 @@
     font-size: 18px;
   }
   #animalopedia .animals img {
-    width: 10rem;
+    width: 8rem;
     margin: 0.2rem 0.8rem;
   }
   #animalopedia .wildlife img {
-    width: 10rem;
+    width: 8rem;
     margin: 0.5rem 3rem;
   }
   #sponsors .container img {
@@ -61,9 +63,18 @@
     margin: 0 40px;
   }
   .form-group input {
-    width: 20rem;
+    width: 15rem;
   }
   .form-group .btn {
-    width: 21rem;
+    width: 16rem;
+  }
+  #contact .social-media {
+    display: none;
+  }
+  footer {
+    margin-top: 1rem;
+  }
+  footer .container {
+    font-size: 14px;
   }
 }
