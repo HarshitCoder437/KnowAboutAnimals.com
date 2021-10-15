@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>
+      KnowAboutAnimals.com | Get to know rare facts about some wonderful animals
+      in the nature
+    </title>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/ios/50/4a90e2/hippopotamus.png"
+      type="image/png"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="brand">KnowAbout<span>Animals.com</span></div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#animalopedia">Animalopedia</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-media">
+          <a href="http://facebook.com/" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="http://twitter.com/" target="_blank">
+            <i class="fa fa-twitter" id="twitter"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="container">
+          <h2 class="heading-primary">Welcome to <br />KnowAboutAnimals.com</h2>
+          <p>The Free Animalopedia</p>
+
+          <button class="btn">Suggest an animal</button>
+        </div>
+        <img src="img/bg1.jpg" alt="Lion" title="Lion gazing at the camera" />
+      </section>
+      <section id="about">
+        <h2 class="heading-secondary">About</h2>
+        <div class="container">
+          <a href="https://en.wikipedia.org/wiki/Tit_(bird)" target="_blank">
+            <img
+              src="img/about/about1.jpeg"
+              alt="Bird"
+              title="A Bird plucking fruits"
+            />
+          </a>
+          <a href="https://en.wikipedia.org/wiki/Arctic_fox" target="_blank">
+            <img
+              src="img/about/about2.jpeg"
+              alt="Fox"
+              title="A snow fox staring at the camera"
+            />
+          </a>
+          <a href="https://en.wikipedia.org/wiki/Discus_(fish)" target="_blank">
+            <img
+              src="img/about/about3.jpeg"
+              alt="Fish"
+              title="A Fish swimming here and there..."
+            />
+          </a>
+        </div>
+        <p>
+          Our attempt is to provide free and useful information to you about the
+          wonderful world of animals and birds. By this site you will get to
+          know about variuos and & strange facts about animals.
+        </p>
+      </section>
+      <section id="animalopedia">
+        <h2 class="heading-secondary">Explore More...</h2>
+        <div class="animals">
+          <a href="content/whale.html" target="_blank">
+            <img
+              src="img/animalopedia/whale.jpg"
+              alt=""
+              title="Blue Whale"
+              id="whale"
+              onmouseover="whale();"
+              onmouseleave="whaleOut();"
+            />
+          </a>
+          <a href="content/peacock.html" target="_blank">
+            <img
+              src="img/animalopedia/peacock.jpg"
+              alt=""
+              title="Peacock"
+              id="peacock"
+              onmouseover="peacock();"
+              onmouseleave="peacockOut();"
+            />
+          </a>
+        </div>
+        <div class="wildlife">
+          <a href="content/lion.html" target="_blank">
+            <img
+              src="img/animalopedia/lion.jpg"
+              alt=""
+              title="Lion"
+              id="lion"
+              onmouseover="lion();"
+              onmouseleave="lionOut();"
+            />
+          </a>
+          <!-- <a href="content/tiger.html" target="_blank">
+                    <img src="img/animalopedia/tiger.jpg" alt="" title="White Tiger" id="tiger" onmouseover="tiger();" onmouseleave="tigerOut();">
+                </a> -->
+        </div>
+      </section>
+      <section id="sponsors">
+        <h2 class="heading-secondary">Our Sponsors</h2>
+        <div class="container">
+          <a href="https://www.discovery.com/" target="_blank">
+            <img
+              src="img/sponsor/discovery.png"
+              alt="Discovery"
+              title="Discovery"
+            />
+          </a>
+          <a href="https://www.animalplanet.com/" target="_blank">
+            <img
+              src="img/sponsor/animalPlanet.png"
+              alt="Animal Planet"
+              title="Animal Planet"
+            />
+          </a>
+          <a href="https://www.nationalgeographic.com/" target="_blank">
+            <img
+              src="img/sponsor/nationalGeographic.jpg"
+              alt="National Geogrpahic"
+              title="National Geographic"
+            />
+          </a>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="heading-secondary">Contact</h2>
+        <form action="noaction.php" class="form-group">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <input
+            type="phone"
+            name="phone"
+            id="phone"
+            placeholder="Enter your phone"
+          />
+          <button class="btn">Submit</button>
+        </form>
+        <div class="social-media">
+          <a href="http://facebook.com/" target="_blank">
+            <i class="fa fa-facebook" id="facebook"></i>
+          </a>
+          <a href="http://twitter.com/" target="_blank">
+            <i class="fa fa-twitter" id="twitter"></i>
+          </a>
+          <a href="http://in.linkedin.com/" target="_blank">
+            <i class="fa fa-linkedin" id="linkedin"></i>
+          </a>
+          <a href="http://youtube.com/" target="_blank">
+            <i class="fa fa-youtube" id="youtube"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        &copy2021 KnowAboutAnimals.com All rights reserved.
+      </div>
+    </footer>
+    <audio src="/sounds/lion.wav" id="lion-wav"></audio>
+    <audio src="/sounds/peacock.wav" id="peacock-wav"></audio>
+    <audio src="/sounds/tiger.mp3" id="tiger-mp3"></audio>
+    <audio src="/sounds/whale.mp3" id="whale-mp3"></audio>
+  </body>
+
+  <script src="js/script.js"></script>
+</html>

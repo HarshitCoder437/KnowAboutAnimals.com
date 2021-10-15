@@ -1,0 +1,69 @@
+@media screen and (max-width: 1320px) {
+  .heading-primary {
+    font-size: 24px;
+    text-align: center;
+  }
+  .btn {
+    display: block;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+  #navbar .brand {
+    display: none;
+  }
+  #navbar ul {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+  #navbar ul li a {
+    padding: 15px;
+    font-size: 15px;
+  }
+  .social-media {
+    display: none;
+  }
+  #home {
+    flex-direction: column;
+  }
+  #home .container {
+    align-items: center;
+  }
+  #home img {
+    display: block;
+    width: 15rem;
+    margin: 2rem auto auto;
+  }
+  #about .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #about .container img {
+    margin: 5px;
+    width: 10rem;
+  }
+  #about p {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  #animalopedia .animals img {
+    width: 10rem;
+    margin: 0.2rem 0.8rem;
+  }
+  #animalopedia .wildlife img {
+    width: 10rem;
+    margin: 0.5rem 3rem;
+  }
+  #sponsors .container img {
+    width: 110px;
+    margin: 0 40px;
+  }
+  .form-group input {
+    width: 20rem;
+  }
+  .form-group .btn {
+    width: 21rem;
+  }
+}
